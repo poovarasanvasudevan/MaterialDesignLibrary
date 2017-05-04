@@ -18,7 +18,10 @@ public class ButtonRectangle extends Button {
 	
 	int paddingTop,paddingBottom, paddingLeft, paddingRight;
 	
-	
+	public ButtonRectangle(Context context) {
+		super(context);
+		setDefaultProperties();
+	}
 	public ButtonRectangle(Context context, AttributeSet attrs) {
 		super(context, attrs);
 		setDefaultProperties();
