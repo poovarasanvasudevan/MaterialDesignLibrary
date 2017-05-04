@@ -32,6 +32,10 @@ public class CheckBox extends CustomView {
 		super(context, attrs);
 		setAttributes(attrs);
 	}
+	
+	public CheckBox(Context context) {
+		super(context);
+	}
 
 	// Set atributtes of XML to View
 	protected void setAttributes(AttributeSet attrs) {
