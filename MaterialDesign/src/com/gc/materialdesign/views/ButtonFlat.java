@@ -20,6 +20,10 @@ public class ButtonFlat extends Button {
 		super(context, attrs);
 		
 	}
+	public ButtonFlat(Context context) {
+		super(context);
+		
+	}
 	
 	protected void setDefaultProperties(){
 		minHeight = 36;
